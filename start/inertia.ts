@@ -9,6 +9,7 @@
 */
 
 import Inertia from '@ioc:EidelLev/Inertia';
+import Intergrate from '@ioc:EidelLev/Intergrate';
 
 Inertia.share({
   errors: (ctx) => {
