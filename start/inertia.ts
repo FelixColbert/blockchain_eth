@@ -1,6 +1,6 @@
 /*
 |--------------------------------------------------------------------------
-| Inertia Preloaded File
+| Inertia Preloaded Files
 |--------------------------------------------------------------------------
 |
 | Any code written inside this file will be executed during the application
@@ -9,7 +9,6 @@
 */
 
 import Inertia from '@ioc:EidelLev/Inertia';
-import Intergrate from '@ioc:EidelLev/Intergrate';
 
 Inertia.share({
   errors: (ctx) => {
