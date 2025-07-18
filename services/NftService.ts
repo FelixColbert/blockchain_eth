@@ -15,7 +15,7 @@ export default class NftService {
     'zora',
   ]
 
-  private IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.gif', '.png', '.svg']
+  private IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.gif', '.png', '.svg', '.tga', '.webp', 'tif']
 
   public async getCollectionDetails(collection) {
     return await this.loadCollectionData(collection)
