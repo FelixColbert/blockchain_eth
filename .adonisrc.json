@@ -16,6 +16,7 @@
   "preloads": [
     "./start/routes",
     "./start/kernel",
+    "./start/kerne2",
     {
       "file": "./start/inertia",
       "environment": [
