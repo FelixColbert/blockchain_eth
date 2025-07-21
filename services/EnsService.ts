@@ -353,7 +353,7 @@ export default class EnsService {
           // @ts-ignore
           let AddressDefinition = this.wallets.find((wallet) => wallet.key === value.coinType)
 
-          // @ts-ignore
+          // @ts-ignore ts
           accum[value.coinType] = {
             // @ts-ignore
             'coinType': value.coinType,
