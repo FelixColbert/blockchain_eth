@@ -14,9 +14,7 @@
 | and then import them inside `start/routes.ts` as follows
 |
 | import './routes/cart'
-| import './routes/customer''
-| import './routes/category'
-|
+| import './routes/customer'
 */
 
 import Route from '@ioc:Adonis/Core/Route'
