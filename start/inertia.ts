@@ -3,15 +3,14 @@
 | Inertia Preloaded Files
 |--------------------------------------------------------------------------
 |
-| Any code written inside this file will be executed during the application
-| boot.
+| This file is executed during application boot. Use it to share data
+| globally across all Inertia responses.
 |
 */
 
 import Inertia from '@ioc:EidelLev/Inertia';
 
 Inertia.share({
-  errors: (ctx) => {
-    return ctx.session.flashMessages.get('errors');
+  errors: ({ session }) => session.flashMessages.get('errors') || {},
   },
 }).version(() => Inertia.manifestFile('public/assets/manifest.json'));
