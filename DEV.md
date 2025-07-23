@@ -41,6 +41,10 @@ I recommend using `forever` to run basic servers. Otherwise you can use `pm2`
 
 * https://docs.adonisjs.com/guides/deployment#using-a-process-manager
 
+**P2P / Additional Method0:**
+
+ https://docs.adonisjs.com/guides/deployment1#using-a-process-manager
+
 ### Troubleshooting
 * Intermittent `Error: Cannot find module '../lib/config/parse-runtime'` errors can be solved by accessing the docker container and running `rm -rf node_modules;npm install`
 
